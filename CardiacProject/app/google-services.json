@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "556136304421",
+    "project_id": "cardiacproject-8044c",
+    "storage_bucket": "cardiacproject-8044c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556136304421:android:6d6b02203a7169839994cc",
+        "android_client_info": {
+          "package_name": "com.example.cardiacproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556136304421-c5spl3v736efbpmq4k84bm8v7tbi2nfa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA09hyXUWKLLXhKT8_mZIrBcli53bk9ahE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556136304421-c5spl3v736efbpmq4k84bm8v7tbi2nfa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
