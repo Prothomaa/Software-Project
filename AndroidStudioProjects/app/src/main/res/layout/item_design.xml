@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Prothomaa"
+            android:textColor="@color/black"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@+id/name"
+            android:text="10:43 AM"
+            android:textSize="12sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/name"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Pressure High"
+            android:textSize="15sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_below="@+id/comment"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="-5dp"
+            android:text="_________________________________________________________"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
